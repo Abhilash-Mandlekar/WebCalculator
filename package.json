@@ -1,0 +1,32 @@
+{
+  "name": "web_calculator",
+  "version": "1.0.0",
+  "description": "For example, user A and user B go to your app at the same time. User A calculates “5 + 5”, which equals “10\". This is logged below the calculator as “5 + 5 = 10”. User B is updated about this calculation right after user A posts it. Now, user B calculates “3 x 4\".This calculates to “12” and displays “3 x 4=12\" right below the prior calculation. User A sees this update immediately after user B posts it.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Abhilash",
+  "license": "ISC",
+  "engines": {
+    "node": "12.17.x"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "utf-8-validate": "^5.0.2",
+    "websocket": "^1.0.31",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhilash-Mandlekar/Web_calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhilash-Mandlekar/Web_calculator/issues"
+  },
+  "homepage": "https://github.com/Abhilash-Mandlekar/Web_calculator#readme"
+}

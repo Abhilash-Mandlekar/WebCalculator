@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="media/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="media/js/WebSocket.js"></script>
+  <script src="media/js/Calculator.js"></script>
+</head>
+
+<body>
+  <h2 style="text-align:center"> Calculator Web Application </h2>
+
+  <!--Takes User Name-->
+  <div class="container" id="nameContainer">
+    <br><br>
+    <div class="form-group">
+      <label for="name">Enter Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name" width="48" required>
+      <button type="button" class="btn btn-primary" id="formsubmit">Save and continue</button>
+    </div>
+  </div>
+
+  <div id="output">
+    <!--Chats are dispalyed here-->
+    <div id="content" class="container p-3 my-3 border"></div>
+    <div>
+      <input type="hidden" id="input" disabled="disabled" />
+
+      <!--Calculator-->
+      <div class="calculator" name="Calc">
+        <input type="text" name="Input" id="textbox" class="textbox" readonly>
+        <div class="buttons">
+          <button class="button" id="clear">AC</button>
+          <button class="button" id="CE"></button>
+          <button class="button" id="modulus">%</button>
+          <button class="button" id="divide">/</button>
+          <button class="button" id="7">7</button>
+          <button class="button" id="8">8</button>
+          <button class="button" id="9">9</button>
+          <button class="button" id="multiply">*</button>
+          <button class="button" id="4">4</button>
+          <button class="button" id="5">5</button>
+          <button class="button" id="6">6</button>
+          <button class="button" id="minus">-</button>
+          <button class="button" id="1">1</button>
+          <button class="button" id="2">2</button>
+          <button class="button" id="3">3</button>
+          <button class="button" id="plus">+</button>
+          <button class="button" id="dot">.</button>
+          <button class="button" id="0">0</button>
+          <button class="button" id="Ans"></button>
+          <button class="button" id="equals">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
